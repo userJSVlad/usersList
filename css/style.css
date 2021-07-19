@@ -1,0 +1,76 @@
+body{
+   background-color: #d9d9d9;
+}
+.users {
+}
+.container {
+   max-width: 600px;
+   margin: 0 auto;
+}
+.users__titl {
+   margin-top: 50px;
+   font-family: 'Courier New', Courier, monospace;
+   letter-spacing: normal;
+   font-size: 30px;
+   font-weight: 600;
+   border-bottom: 2px solid grey;
+   text-align: center;
+   padding: 0px 0px 10px 0px;
+}
+.all__users-back {
+   background-color: white;
+   width: 500px;
+   height: 130px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px;
+}
+.all__users-pict{
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, 0%);
+}
+.all__users-foto {
+   width: 90px;
+   height: 90px;
+   border-radius: 50px;
+}
+.all__users-text {
+   margin-top: 20px;
+   color: #bab3b3;
+
+}
+.all__users-name {
+   margin-top: 5px;
+   font-size: 25px;
+   letter-spacing: 2px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 500;
+   text-align: center;
+}
+.all-users{
+   position: relative;
+   top: 0;
+   left: 0;
+}
+.our__users{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.slide {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+}
+.slide-img {
+   width: 150px;
+   height: 50px;
+}
+.all-users{
+   margin-top: 30px;
+}
